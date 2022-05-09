@@ -4,5 +4,9 @@
   --lighter-dark-font-color: #696969;
   --reverse-font-color: #ffffff;
   --footer-color: #243246;
-  --site-main-color-opacity: #65C46699;
+  --site-main-color-opacity: #65c46699;
+  font-size: 13px;
+}
+* {
+  box-sizing: border-box;
 }
