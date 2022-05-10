@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Trajan Pro 3';
   src: url(./../fonts/trajan-pro-cufonfonts-webfont/TrajanPro-Bold.woff)
-    format(woff);
+    format("woff");
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Trajan Pro 3';
   src: url(./../fonts/trajan-pro-cufonfonts-webfont/TrajanPro-Regular.woff)
-    format(woff);
+    format("woff");
   font-weight: 400;
 }
