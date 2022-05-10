@@ -9,4 +9,29 @@
 }
 * {
   box-sizing: border-box;
+  
+}
+header,
+.ask-question{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+h2 {
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+  color: var(--site-main-color);
+
+  font-family: "Trajan Pro 3";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.15rem;
+}
+
+p{
+  font-family: 'Mulish';
+  
 }
