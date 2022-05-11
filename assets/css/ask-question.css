@@ -8,11 +8,13 @@
   position: relative;
 }
 .ask-question-form {
-  display: flex;
+  margin: 1.5rem 0;
+  display: flex; 
+   
   flex-direction: column;
   justify-content: space-around;
   min-height: 15rem;
-  margin: auto;
+
 }
 
 .your-question-number,
@@ -53,14 +55,17 @@ input[type="checkbox"]:checked::after {
   right: 1px;
   bottom: 1px;
 }
-.checkbox-text {
-  width: 10rem;
-  font-size: 0.65rem;
-  line-height: 0.75rem;
-}
 
 .ask-question-btn {
   display: flex;
-  justify-content: space-around;
+  margin-top: 1.5rem;
+  justify-content: space-between;
   align-items: center;
+}
+
+.checkbox-text {
+ 
+  width: 10rem;
+  font-size: 0.65rem;
+  line-height: 0.75rem;
 }
