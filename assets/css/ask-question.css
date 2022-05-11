@@ -4,7 +4,63 @@
 }
 
 .inner-wrapper-ask-question-image {
-  padding-top: calc(calc(1,25) * 100%);
+  padding-top: calc(calc(1, 25) * 100%);
   position: relative;
 }
+.ask-question-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 15rem;
+  margin: auto;
+}
 
+.your-question-number,
+.your-question-text {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--borders-color);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.your-question-number {
+  height: 2.5rem;
+}
+.your-question-text {
+  resize: none;
+  height: 7rem;
+}
+textarea,
+input {
+  padding: 0.5rem 1rem;
+
+  font-family: "Mulish";
+  font-weight: 500;
+  letter-spacing: normal;
+}
+.checkbox-text,
+textarea::placeholder,
+input::placeholder {
+  color: var(--light-font-color);
+}
+input[type="checkbox"] {
+  width: 10px;
+  height: 10px;
+}
+input[type="checkbox"]:checked::after {
+  content: url(./../images/green-checkbox.svg);
+
+  position: relative;
+  right: 1px;
+  bottom: 1px;
+}
+.checkbox-text {
+  width: 10rem;
+  font-size: 0.65rem;
+  line-height: 0.75rem;
+}
+
+.ask-question-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

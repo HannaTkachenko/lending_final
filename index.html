@@ -51,33 +51,36 @@
           </div>
         </div>
       </div>
+      <div class="col-12 col-md-7">
+        <form class="ask-question-form" action="">
+          <div>
+            <input
+              class="your-question-number"
+              type="text"
+              placeholder="Введите номер Вашего телефона"
+              name="input your question"
+            />
+          </div>
+          <div>
+            <textarea
+              class="your-question-text"
+              id="message"
+              rows="8"
+              cols="50"
+              placeholder="Введите Ваш вопрос..."
+            ></textarea>
+          </div>
+          <div class="ask-question-btn">
+            <input type="checkbox" name="accept" value="accept" required />
+            <span class="checkbox-text">
+              Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+              конфидециальности
+            </span>
 
-      <form class="ask-question-form" action="">
-        <div>
-          <input
-            class="your-question-theme"
-            type="text"
-            placeholder="Введите Ваш вопрос..."
-            name="input your question"
-          />
-        </div>
-        <div>
-          <input
-            class="your-question-text"
-            type="text"
-            placeholder="Введите Ваш вопрос..."
-            name="input your question"
-          />
-        </div>
-        <label>
-          <input type="checkbox" name="accept" value="accept" required />
-          <span>
-            Нажимая кнопку “Отправить” вы соглашаетесь с политикой
-            конфидециальности
-          </span>
-        </label>
-        <button class="btn overflow" type="submit">Отправить вопрос</button>
-      </form>
+            <button class="btn overflow" type="submit">Отправить вопрос</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
