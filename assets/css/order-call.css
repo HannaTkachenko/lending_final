@@ -1,0 +1,8 @@
+.order-call{
+  background: url(./../images/image-for-clip-path.png);
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+border-radius: 4px;
+
+}
