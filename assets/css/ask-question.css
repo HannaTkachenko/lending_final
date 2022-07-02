@@ -7,14 +7,13 @@
   padding-top: calc(calc(1, 25) * 100%);
   position: relative;
 }
+
 .ask-question-form {
-  margin: 1.5rem 0;
-  display: flex; 
-   
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   min-height: 15rem;
-
+  margin: 1.5rem 0;
 }
 
 .your-question-number,
@@ -58,13 +57,13 @@ input[type="checkbox"]:checked::after {
 
 .ask-question-btn {
   display: flex;
-  margin-top: 1.5rem;
+
   justify-content: space-between;
   align-items: center;
+  margin-top: 1.5rem;
 }
 
 .checkbox-text {
- 
   width: 10rem;
   font-size: 0.65rem;
   line-height: 0.75rem;
