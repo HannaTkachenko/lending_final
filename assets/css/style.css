@@ -13,6 +13,13 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Trajan Pro 3";
+  src: url(./../fonts/TrajanPro3Regular.ttf);
+}
+
+
 header,
 .ask-question {
   margin-left: 1rem;
