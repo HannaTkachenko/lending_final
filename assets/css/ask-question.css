@@ -62,9 +62,13 @@ input[type="checkbox"]:checked::after {
   align-items: center;
   margin-top: 1.5rem;
 }
-
+.checkbox-block {
+  display: flex;
+   width: 15rem;
+ 
+}
 .checkbox-text {
-  width: 10rem;
-  font-size: 0.65rem;
+  padding-left: 0.5rem;
+    font-size: 0.8rem;
   line-height: 0.75rem;
 }
